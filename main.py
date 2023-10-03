@@ -17,8 +17,8 @@ app = FastAPI()
 #http://127.0.0.1:8000
 
 #archivo
-combinado = pd.read_csv('C:\\Users\\pc\\Desktop\\FastAPI\\final.csv')
-ml= pd.read_csv('C:\\Users\\pc\\Desktop\\FastAPI\\ML.csv')
+combinado = pd.read_csv('final.csv')
+ml= pd.read_csv('ML.csv')
 
 #decorador donde se le indica que cuando llegue a
 #ruta madre muestre el siguiente mensaje
